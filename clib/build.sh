@@ -22,7 +22,7 @@ sed -i '/^package/a\\n' test/test.go
 
 go build
 
-export LD_LIBRARY_PATH=/home/parallels/works/Goproj/src/temp/clib/test
+export LD_LIBRARY_PATH=$GOPATH/src/github.com/d5c5ceb0/cxx2go/clib/test
 
 
 

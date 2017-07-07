@@ -17,4 +17,4 @@ sed -i '/^package/a\\n' shared_lib/shared_lib.go
 
 go build
 
-export LD_LIBRARY_PATH=/home/parallels/works/Goproj/src/temp/cpplib/shared_lib
+export LD_LIBRARY_PATH=$GOPATH/src/github.com/d5c5ceb0/cxx2go/cpplib/shared_lib

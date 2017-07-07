@@ -1,6 +1,6 @@
 package main
 
-import "temp/cpplib/shared_lib"
+import "github.com/d5c5ceb0/cxx2go/cpplib/shared_lib"
 
 func main() {
 	t := shared_lib.NewTestClass()
