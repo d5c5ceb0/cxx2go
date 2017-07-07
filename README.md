@@ -1,9 +1,9 @@
 # cxx2go
-us SWIG to call c/c++ code by go.
+use SWIG to call c/c++ code by go.
 
 just for linux
 
-clib is the C codes. cpplib is the Cpp codes.
+*clib* is the C codes. *cpplib* is the Cpp codes.
 to build the just use:
 
 * c shared library
