@@ -9,27 +9,27 @@ to build the just use:
 * c shared library
 ```
 $ cd clib/
-$ . build dotso
+$ . build.sh dotso
 $ ./clib
 ```
 
 * c static library
 ```
 $ cd clib/
-$ . build dota
+$ . build.sh dota
 $ ./clib
 ```
 
 * cpp shared library
 ```
 $ cd cpplib/
-$ . build dotso
+$ . build.sh dotso
 $ ./cpplib
 ```
 
 * cpp static library
 ```
 $ cd cpplib/
-$ . build dota
+$ . build.sh dota
 $ ./cpplib
 ```
